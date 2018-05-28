@@ -1,0 +1,18 @@
+{
+  "name": "BBUsrLedBlink",
+  "version": "1.0.0",
+  "preferGlobal": true,
+  "description": "Blink BeagleBone User Leds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vaishnav M A <mavaishnav007@gmail.com>",
+  "license": "MIT",
+  "bin" : {
+   "blink-usr" : "./index.js"
+  },
+"dependencies": {
+        "bonescript" :"vaishnav98/bonescript#snappy-bonescript"
+    }
+}
